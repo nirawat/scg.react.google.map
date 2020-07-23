@@ -54,7 +54,7 @@ export default () => {
       });
       let resp = await serviceGoogleMap.Request(
         searchGoogleMap.Key1,
-        searchKey,
+        searchKey !== '' ? searchKey : defaultKey,
         searchGoogleMap.Key2
       );
       if (resp.status === 200) {
