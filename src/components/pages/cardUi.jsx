@@ -43,7 +43,7 @@ const CardUi = (props) => {
         image={
           data.photos !== null
             ? data.photos[0].photo_url
-            : "https://scontent.fbkk22-2.fna.fbcdn.net/v/t1.0-9/21686043_1063328787103327_4925957123734487127_n.jpg?_nc_cat=105&_nc_sid=8bfeb9&_nc_eui2=AeFtQaSrK2Ss5mnOk29pFrqzVM14XsiQnf9UzXheyJCd_-uLb1xGkmukrg4ucrwkTgGI4LCfBdf86o6AWp-A7Jhc&_nc_ohc=0sekwABI-6MAX9vadoM&_nc_ht=scontent.fbkk22-2.fna&oh=c2e85584226ae98b1090bb44789dd631&oe=5F3EC210"
+            : `${process.env.PUBLIC_URL + "/none.png"}`
         }
         title="Paella dish"
       />
