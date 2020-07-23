@@ -69,5 +69,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 
 <div align="center">
-    <img src="https://scontent.fbkk22-3.fna.fbcdn.net/v/t1.0-9/113818352_290003378986552_166344119104328529_o.jpg?_nc_cat=110&_nc_sid=730e14&_nc_eui2=AeFywcYhaWXpMfQgO5o7ICyhlGvyUnoMJaCUa_JSegwloLONdWCUdHNiinW57ILFjHsgxF9vtCqnHP_ZfYmWr9F8&_nc_ohc=OU0YOu_5tioAX8uoX-i&_nc_ht=scontent.fbkk22-3.fna&oh=c1c9839501fcd47bb5c42c57ed677f5f&oe=5F3DB1E3" width="800px"</img> 
+    <img src="https://scontent.fbkk22-2.fna.fbcdn.net/v/t1.0-9/109715275_290134605640096_4525849146097547238_o.jpg?_nc_cat=106&amp;_nc_sid=730e14&amp;_nc_eui2=AeG6cyKbIkv2sZncp_Cz6oyMKvig6Dwfwi8q-KDoPB_CL8ckxM_lYA0i4K_E9tNW64dXFEwMTaQ9wBmfq9Z5zGiQ&amp;_nc_ohc=BGDt216mV2UAX8PeYnJ&amp;_nc_ht=scontent.fbkk22-2.fna&amp;oh=c85b0e57b3d5c8be87bd73773da6e2e0&amp;oe=5F3FBA22" width="800px"</img> 
 </div>
