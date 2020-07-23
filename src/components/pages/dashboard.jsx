@@ -35,23 +35,27 @@ export default () => {
   const defaultKey = "Bang Sue";
   const [searchGoogleMap, setSearchGoogleMap] = React.useState({
     Key1: "restaurants",
-    Key2: defaultKey,
-    Key3: "Bangkok",
+    Key2: "Bangkok",
   });
   const isLoading = useSelector((state) => state.reducerGoogleMap.isLoading);
   const googleMapData = useSelector((state) => state.reducerGoogleMap.data);
   const skeleton = ["h1", "h3", "body1", "caption", "caption", "caption"];
 
-  function asyncData() {
+  function asyncData(searchKey) {
     (async () => {
+      dispatch({
+        type: TYPE_GOOGLE_MAP,
+        handle: REQUEST,
+        payload: [],
+      });
       dispatch({
         type: TYPE_GOOGLE_MAP,
         handle: SET_LOADING_TRUE,
       });
       let resp = await serviceGoogleMap.Request(
         searchGoogleMap.Key1,
-        searchGoogleMap.Key2,
-        searchGoogleMap.Key3
+        searchKey,
+        searchGoogleMap.Key2
       );
       if (resp.status === 200) {
         dispatch({
@@ -69,30 +73,20 @@ export default () => {
 
   useEffect(
     () => {
-      asyncData();
+      asyncData(defaultKey);
     },
     // eslint-disable-next-line
-    []
+    [defaultKey]
   );
 
   const handleSearchKeyEvent = (keySearch) => {
-    console.log(keySearch);
-    dispatch({
-      type: TYPE_GOOGLE_MAP,
-      handle: REQUEST,
-      payload: [],
-    });
-    setSearchGoogleMap({
-      ...searchGoogleMap,
-      Key2: keySearch !== "" ? keySearch : defaultKey,
-    });
-    asyncData();
+    asyncData(keySearch);
   };
 
   return (
     <div className="container">
       <SearchBar
-        defaultValue={searchGoogleMap.Key2}
+        defaultValue={defaultKey}
         handleSearchKey={handleSearchKeyEvent}
       />
       <Toolbar />
