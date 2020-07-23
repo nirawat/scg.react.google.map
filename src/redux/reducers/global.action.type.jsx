@@ -1,0 +1,8 @@
+
+//GLOBAL TYPE ACTION 
+export const TYPE_GOOGLE_MAP = "TYPE_GOOGLE_MAP";
+
+export const SET_LOADING_FALSE = "SET_LOADING_FALSE";
+export const SET_LOADING_TRUE = "SET_LOADING_TRUE";
+export const REQUEST = "REQUEST";
+
