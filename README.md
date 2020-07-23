@@ -70,5 +70,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 #Screen Short
 <div align="center">
-    <img src="https://web.facebook.com/photo?fbid=289995022320721&set=a.107304380589787" width="400px"</img> 
+    <img src="https://drive.google.com/file/d/1LCYheQhSPkTsmdhtKe3DmpeTYnM6doMB/view?usp=sharing" width="400px"</img> 
 </div>
