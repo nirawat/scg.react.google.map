@@ -38,7 +38,6 @@ const CardUi = (props) => {
         title={data.name}
         subheader={data.business_status}
       />
-      {console.log(data.photos)}
       <CardMedia
         className={classes.media}
         image={
