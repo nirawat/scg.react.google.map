@@ -69,7 +69,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 
 #Screen Short
-![Screenshot](https://drive.google.com/file/d/1LCYheQhSPkTsmdhtKe3DmpeTYnM6doMB/view?usp=sharing)
+
 <div align="center">
     <img src="https://drive.google.com/file/d/1LCYheQhSPkTsmdhtKe3DmpeTYnM6doMB/view?usp=sharing" width="400px"</img> 
 </div>
