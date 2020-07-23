@@ -67,7 +67,7 @@ const useStyles = makeStyles((theme) => ({
 const SearchBar = (props) => {
   const classes = useStyles();
   const { defaultValue, handleSearchKey } = props;
-  const [searchKey, setSearchKey] = React.useState();
+  const [searchKey, setSearchKey] = React.useState(defaultValue);
 
   return (
     <div className={classes.root}>

@@ -76,6 +76,7 @@ export default () => {
   );
 
   const handleSearchKeyEvent = (keySearch) => {
+    console.log(keySearch);
     dispatch({
       type: TYPE_GOOGLE_MAP,
       handle: REQUEST,
